@@ -1,2 +1,3 @@
 # arCV
-CV: Iñigo Fernández del Amo Blanco
+Iñigo Fernández del Amo Blanco
+CV in an AR web-based application.
