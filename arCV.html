@@ -1,13 +1,19 @@
 <!doctype HTML>
 <html lang="en">
 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+<script src=”https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
 <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.7/aframe/build/aframe-ar.js"></script>
 <body style='margin: 0; overflow: hidden;'>
 <a-scene embedded arjs>
     <a-marker preset="hiro">
-        <a-box position='0 0.5 0' material='color: yellow;'></a-box>
+        <a-entity
+                gltf-model="url(https://raw.githubusercontent.com/InigoGregorio/arCV/master/models/arCV.gltf)">
+        </a-entity>
     </a-marker>
     <a-entity camera></a-entity>
 </a-scene>
 </body>
 </html>
+<!-- setup: https://aframe.io/blog/arjs/ -->
+<!-- gltf:  https://medium.com/@akashkuttappa/using-3d-models-with-ar-js-and-a-frame-84d462efe498 -->
+<!-- targets: https://medium.com/arjs/how-to-create-your-own-marker-44becbec1105 -->
