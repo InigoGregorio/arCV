@@ -1,2 +1,4 @@
 # arCV
-Marketing material in AR-based web applications
+Iñigo Fernández del Amo Blanco
+
+AR web-based CV
